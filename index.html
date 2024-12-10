@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>todo list</title>
+    <link rel="stylesheet" href="style/output.css" />
+  </head>
+  <body>
+    <div class="messages">
+      <div id="error" class="error">
+        <p>نمیتونی یک تسک خالی اضافه کنی/:</p>
+      </div>
+      <div id="success" class="success">
+        <p>با موفقیت اضافه شد(:</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="input">
+        <input type="text" name="" id="inputBox" placeholder="بنویس" />
+        <input id="addButton" type="submit" value="اضافه کردن" />
+      </div>
+      <ul id="ul"></ul>
+      <div id="delall" class="delall">
+        <button type="submit">حذف همه</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

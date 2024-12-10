@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #04061b, #101113);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+body .messages {
+  position: absolute;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 30px;
+}
+body .messages .error {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  position: absolute;
+  transform: translateY(-200%);
+  display: none;
+  transition: all 0.2s ease;
+}
+body .messages .success {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  position: absolute;
+  transform: translateY(-200%);
+  display: none;
+  transition: all 0.2s ease;
+}
+body .container {
+  background-color: #004db9;
+  padding: 20px;
+  border-radius: 10px;
+}
+body .container .input {
+  display: flex;
+  gap: 10px;
+}
+body .container .input input {
+  all: unset;
+  background-color: aliceblue;
+  padding: 5px;
+  border-radius: 5px;
+}
+body .container .input input[type=submit] {
+  all: unset;
+  background-color: rgb(0, 183, 255);
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+body .container .input input[type=submit]:hover {
+  background-color: rgb(0, 130, 181);
+  color: white;
+}
+body .container ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+body .container ul li {
+  all: unset;
+  background-color: rgb(0, 101, 184);
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .container ul li i {
+  all: unset;
+  background-color: rgb(192, 18, 18);
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: all 0.2s ease;
+}
+body .container ul li i:hover {
+  opacity: 1;
+}
+body .container .delall {
+  display: flex;
+  justify-content: center;
+}
+body .container .delall button {
+  all: unset;
+  background-color: rgb(0, 183, 255);
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+body .container .delall button:hover {
+  background-color: rgb(0, 130, 181);
+  color: white;
+}
+
+/*# sourceMappingURL=output.css.map */
